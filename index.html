@@ -1,0 +1,334 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="robots" content="index,follow">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!--<link href="css/main.less" type="text/css" rel="stylesheet/less">
+    <script src="js/less.js" type="text/javascript"></script>-->
+    <link href="css/bxslider.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/bxslider.min.js" type="text/javascript"></script>
+    <script src="js/html5shiv.min.js" type="text/javascript"></script>
+    <!--<script src="js/placeholders.min.js" type="text/javascript"></script>-->
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#bxslider').bxSlider({
+                controls: false,
+                pause: 4000,
+                speed: 500
+                //auto: true
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- HEADER -->
+        <header>
+            <div class="topbar">
+                <img class="logo" src="img/logo.png" alt="head_logo">
+                <span class="left_phone">+38 (095) 342-78-04</span><div class="circle"><span class="days">24/7</span></div><span class="right_phone">+38 (095) 342-78-04</span>
+                <div class="topbar_right">
+                    <div class="social">
+                        <ul>
+                            <li><a href="#"><span class="fa fa-facebook fa-fw"></span></a></li>
+                            <li><a href="#"><span class="fa fa-twitter fa-fw"></span></a></li>
+                            <li><a href="#"><span class="fa fa-vk fa-fw"></span></a></li>
+                            <li><a href="#"><span class="fa fa-odnoklassniki fa-fw"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="langs fr">
+                        <ul>
+                            <li>
+                                <img src="img/ua.png" height="16" width="22" alt="lang"><a href="#" class="current">RU</a>
+                                <ul>
+                                    <li><a href="#">Українська</a></li>
+                                    <li><a href="#">Русский</a></li>
+                                    <li><a href="#">English</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- NAVIGATION -->
+            <div class="main_nav">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Продукция</a></li>
+                            <li><a href="#">Магазин</a></li>
+                            <li><a href="#">Бизнес</a></li>
+                            <li><a href="#">Личный офис</a></li>
+                        </ul>
+                    </nav>
+            </div>
+            <!-- END NAVIGATION -->
+            <!-- SLIDER -->
+            <ul id="bxslider">
+                <li>
+                    <div class="slider">
+                        <img src="img/bg.jpg" alt="slider_bg">
+                        <div class="wrapper">
+                            <h1>Начни зарабатывать прямо сейчас!</h1>
+                            <h2>Ваш путь к здоровой и богатой жизни</h2>
+                            <p>Откройте для себя путь к здоровой и богатой жизни! Получите уникальные возможности для создания бизнеса своей мечты, финансового благополучия и независимости, обогащения жизни окружающих Вас людей!</p>
+                            <form action="subscribe.php">
+                                <input type="text" name="name" placeholder="ВАШЕ ИМЯ">
+                                <input type="email" name="mail" placeholder="ВАШ EMAIL">
+                                <input type="submit" value="ПОДПИСАТЬСЯ НА НОВОСТИ">
+                            </form>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="slider">
+                        <img src="img/bg.jpg" alt="slider_bg">
+                        <div class="wrapper">
+                            <h1>Начни зарабатывать прямо сейчас!</h1>
+                            <h2>Ваш путь к здоровой и богатой жизни</h2>
+                            <p>Откройте для себя путь к здоровой и богатой жизни! Получите уникальные возможности для создания бизнеса своей мечты, финансового благополучия и независимости, обогащения жизни окружающих Вас людей!</p>
+                            <form action="subscribe.php">
+                                <input type="text" name="name" placeholder="ВАШЕ ИМЯ">
+                                <input type="email" name="mail" placeholder="ВАШ EMAIL">
+                                <input type="submit" value="ПОДПИСАТЬСЯ НА НОВОСТИ">
+                            </form>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="slider">
+                        <img src="img/bg.jpg" alt="slider_bg">
+                        <div class="wrapper">
+                            <h1>Начни зарабатывать прямо сейчас!</h1>
+                            <h2>Ваш путь к здоровой и богатой жизни</h2>
+                            <p>Откройте для себя путь к здоровой и богатой жизни! Получите уникальные возможности для создания бизнеса своей мечты, финансового благополучия и независимости, обогащения жизни окружающих Вас людей!</p>
+                            <form action="subscribe.php">
+                                <input type="text" name="name" placeholder="ВАШЕ ИМЯ">
+                                <input type="email" name="mail" placeholder="ВАШ EMAIL">
+                                <input type="submit" value="ПОДПИСАТЬСЯ НА НОВОСТИ">
+                            </form>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <!-- END SLIDER -->
+        </header>
+        <!-- END HEADER -->
+        <!-- MAIN -->
+        <div class="content wrapper">
+            <div class="collum_396">
+                <div class="left_sidebar fl">
+                    <ul>
+                        <li class="button">
+                            <ul class="sidebar_item">
+                                <li><span class="info"></span><a href="#">О компании</a></li>
+                                <li><span class="shop"></span><a href="#">Магазин</a></li>
+                                <li><span class="capabilities"></span><a href="#">Возможности</a></li>
+                                <li><span class="cabinet"></span><a href="#">Кабинет</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="center_section fl">
+                    <div class="video rich fl"><a href=""><span>Благосостояние</span></a></div>
+                    <div class="video eso fr"><a href=""><span>Эзотерика</span></a></div>
+                    <div class="cleaner"></div>
+                    <div class="banner"><img src="img/ban.png" height="130" width="508" alt=""><span>Баннер с важным предложением</span>
+                        <p>Краткое описание важного предложения на баннере.</p>
+                        <p>Укажите важные достоинства и преимущества продукта или услуги</p>
+                    </div>
+                    <div class="event">
+                        <div class="info fl">
+                            <a href=""><span>Ближайшее мероприятие в компании</span></a> Заголовок ближайшего мероприятия
+                        </div>
+                        <div class="time fr">
+                            Состоится через:
+                            <span>22:54:37</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_section fr">
+                    <div class="cart">
+                        <em>Корзина</em>
+                        <p>Новых товаров: 2</p>
+                        <p>На сумму: <span>38,5$</span></p>
+                        <div class="buttom"><a href="#">Оформить заказ</a></div>
+                    </div>
+                    <div class="video_review"><span>Видео-отзыв</span></div>
+                    <div class="talk"> <a href=""><em>Интервью</em></a>
+                        <p>с Президентом компании</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ABOUT -->
+            <div class="about_post">
+                <div class="item fl"><img src="img/vine.png" height="250" width="320" alt=""><span class="red">ЗАГОЛОВОК</span>
+                    <p>Компания Тибетская формула основана в 2012 году в Украине. С того времени занимает успешную позицию на рынке Украины</p>
+                </div>
+                <div class="item fl"><img src="img/bay.jpg" height="250" width="320" alt=""><span class="red">ЗАГОЛОВОК</span>
+                    <p>Мы активно разрабатываем и выпускаем очень широкий выбор биологически активных добавок к пище, полезных для организма</p>
+                </div>
+                <div class="item-2 fr"><img src="img/tree.png" height="250" width="320" alt=""><span class="gray">ЗАГОЛОВОК</span>
+                    <p>С компанией Тибетская формула вы сможете иметь как активный, так и пассивный заработок и получать вознаграждения</p>
+                </div>
+            </div>
+            <!-- END ABOUT -->
+            <div class="cleaner"></div>
+            <!-- LATEST NEWS -->
+            <div class="news fl">
+                <div class="news_head">
+                    <h2>Последние новости</h2>
+                </div>
+                <div class="news_post">
+                    <img src="img/news_1.jpg" alt="">
+                    <div class="text fl">
+                        <h3>Заголовок новости</h3>
+                        <p>Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия</p>
+                    </div>
+                    <div class="info_side fr">
+                        <div class="times">
+                            <i class="fa fa-calendar day" aria-hidden="true"></i>01/09/2015
+                            <i class="fa fa-clock-o time" aria-hidden="true"></i>19:37
+                        </div>
+                        <div class="buttom"><a href="#">Подробнее</a></div>
+                    </div>
+                </div>
+                <div class="news_post">
+                    <img src="img/news_2.jpg" alt="">
+                    <div class="text fl">
+                        <h3>Заголовок новости</h3>
+                        <p>Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия</p>
+                    </div>
+                    <div class="info_side fr">
+                        <div class="times">
+                            <i class="fa fa-calendar day" aria-hidden="true"></i>01/09/2015
+                            <i class="fa fa-clock-o time" aria-hidden="true"></i>19:37
+                        </div>
+                        <div class="buttom"><a href="#">Подробнее</a></div>
+                    </div>
+                </div>
+                <div class="news_post">
+                    <img src="img/news_3.jpg" alt="">
+                    <div class="text fl">
+                        <h3>Заголовок новости</h3>
+                        <p>Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия</p>
+                    </div>
+                    <div class="info_side fr">
+                        <div class="times">
+                            <i class="fa fa-calendar day" aria-hidden="true"></i>01/09/2015
+                            <i class="fa fa-clock-o time" aria-hidden="true"></i>19:37
+                        </div>
+                        <div class="buttom"><a href="#">Подробнее</a></div>
+                    </div>
+                </div>
+            </div>
+            <!-- END LATEST NEWS -->
+            <!-- REVIEWS -->
+            <div class="review fr">
+                <div class="review_head">
+                    <h2>Отзывы наших партнёров</h2>
+                </div>
+                <div class="review_post">
+                    <img src="img/rev_1.jpg" alt="Наталья">
+                    <p>
+                        <span>Наталья Александровна</span>
+                        При создании генератора мы использовали небезызвестный универсальный код речей
+                    </p>
+                </div>
+                <div class="review_post">
+                    <img src="img/rev_2.jpg" alt="Сергей">
+                    <p>
+                        <span>Сергей Валерьевич</span>
+                        При создании генератора мы использовали небезызвестный универсальный код речей
+                    </p>
+                </div>
+                <div class="review_post">
+                    <img src="img/rev_3.jpg" alt="Владислав">
+                    <p>
+                        <span>Владислав Александрович</span>
+                        При создании генератора мы использовали небезызвестный универсальный код речей
+                    </p>
+                </div>
+            </div>
+            <!-- END REVIEWS -->
+        </div>
+		<div class="push"></div>
+    </div>
+        <!-- END MAIN -->
+        <div class="cleaner"></div>
+        <!-- BEGIN FOOTER -->
+        <footer>
+            <div class="wrapper">
+                <div class="ll fl">
+                    <img src="img/footer_logo.png" alt="logo">
+                    <div class="slogan">Краткий слоган компании в две строки</div>
+                    <div class="footer_social">
+                        <ul>
+                            <li><a href="#"><span class="fa fa-facebook fa-fw"></span></a></li>
+                            <li><a href="#"><span class="fa fa-twitter fa-fw"></span></a></li>
+                            <li><a href="#"><span class="fa fa-vk fa-fw"></span></a></li>
+                            <li><a href="#"><span class="fa fa-odnoklassniki fa-fw"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="rr fr">
+                    <div class="footer_info">
+                        <div class="column_1 fl">
+                            <h4>Возможности</h4>
+                            <ul>
+                                <li><a href="#">Как начать бизнес в нашей компании</a></li>
+                                <li><a href="#">Что такое маркетинг-план</a></li>
+                                <li><a href="#">Вопросы-ответы</a></li>
+                            </ul>
+                        </div>
+                        <div class="column_2 fl">
+                            <h4>Компания</h4>
+                            <ul>
+                                <li><a href="#">Интернет-магазин</a></li>
+                                <li><a href="#">Наша продукция</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <div class="column_3 fr">
+                            <h4>Бизнес</h4>
+                            <ul>
+                                <li><a href="#">Условия работы</a></li>
+                                <li><a href="#">Партнерская программа</a></li>
+                                <li><a href="#">RU</a> | <a href="#">UA</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- COPYRIGHT -->
+                    <div class="copyright fr">Copyright © 2015. Все права защищены. Разработка - <a href="#"><span>FlawlessMLM</span></a></div>
+                    <!-- END COPYRIGHT -->
+                </div>
+            </div>
+        </footer>
+        <!-- END FOOTER -->
+
+        <script>
+            $(document).ready(function(){
+				$("li.button").on("click", function(){
+					$("ul.sidebar_item").stop().fadeToggle("fast");
+				});
+			});
+        </script>
+
+</body>
+</html>
